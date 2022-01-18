@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        p {
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        body {
+            font-family: 'Roboto Mono', monospace;
+            background-color: black;
+            color: white;
+
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+
+        }
+
+        .container input {
+            font-family: 'Roboto Mono', monospace;
+            display: block;
+            margin: 15px auto;
+            padding: 10px 15px;
+        }
+
+        .container button {
+            border: 0;
+            background: rgb(0, 183, 255);
+            color: white;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 16px;
+            padding: 15px 20px;
+            margin-top: 25px;
+            border-radius: 10px 5px 10px 5px;
+            transition: .4s;
+
+        }
+
+        .container button:hover {
+            opacity: .8;
+        }
+
+        #listaFilmes{
+            text-align:center;
+        }
+
+        img {
+            display: block;
+            margin: 10px;
+            height: 360px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <h1>
+        FINANÇAS
+    </h1>
+
+    <div class="container">
+        <input id="imgFilme" name="imgFilme" type="text" placeholder="imagem">
+        <input id="nomeFilme" name="nomeFilme" type="text" placeholder="Nome da ação">
+        <button onclick="ListarFilmeNaTela()">Adicionar ação</button>
+    </div>
+
+    <div id="listaFilmes">
+
+
+    </div>
+
+</body>
+
+<script>
+
+    function ListarFilmeNaTela() {
+
+        var nome = document.querySelector('#nomeFilme');
+        var nomeFilme = nome.value;
+
+        var imagem = document.querySelector('#imgFilme');
+        var imagemFilme = imagem.value;
+
+        if (imagemFilme.endsWith('.jpg')) {
+            var imagemExibir = "<img src = " + imagemFilme + ">";
+
+            var listaFilmes = document.querySelector('#listaFilmes')
+            listaFilmes.innerHTML = listaFilmes.innerHTML + nomeFilme + imagemExibir
+        } else {
+            alert("IMAGEM INVÁLIDA")
+        }
+
+    }
+
+
+
+</script>
+
+</html>
