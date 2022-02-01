@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<style> 
+ 
+
+
+
+</style>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title> Guia básico para você começar a investir e conher um pouco sobre investimentos !</title>
+  </head>
+  <body>
+    <h1>Olá investidores, hoje vamos aprender um pouco sobre investimento e por onde você pode começar!</h1>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+<!-- navbar -->
+
+<nav class="navbar navbar-dark bg-dark">
+  <!-- Conteúdo do navbar -->
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Guia para quem está começando a investir</a>
+        <a href="https://www.fundamentus.com.br/" target="blank"/> Link para analisar as ações</a>
+        <li>
+        </li>
+        <a href="https://riconnect.rico.com.vc/blog/investimentos" target="blank"/> Link com seus primeiros passos para começar a investir  </a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Taesa</a>
+          <a class="dropdown-item" href="#">Outras ações</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Algo mais aqui</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Desativado</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+    </form>
+  </div>
+</nav>
+
+<!-- carrosel -->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class=width: 100% \9 src=" https://www.previbayer.com.br/wp-content/uploads/2020/12/previbayer-posts-03-12-bannersite-1024x600.png" alt="">
+    </div>
+    <div class="carousel-item">
+      <img class=width: 100% \9 src=" https://investidorsardinha.r7.com/wp-content/uploads/2021/07/renda-fixa-e-renda-variavel-diferencas-vantagens-e-desvantagens-1200x900.jpg" alt="Segundo Slide">
+    </div>
+    <div class="carousel-item">
+      <img class=width: 100% \9 src="https://xpeedschool.com.br/wp-content/uploads/2021/01/XPEED_ilustracao-blog-01.jpg?quality=60&w=640" alt="Terceiro Slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Próximo</span>
+  </a>
+
+<!-- #card1  -->
+
+<div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="https://urbe.me/lab/wp-content/uploads/2018/01/urbeme-como-come%C3%A7ar-a-investir-1024x612.jpg" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">O QUE É INVESTIMENTO?</h5>
+      <p class="card-text">Em economia, em linhas gerais, investimento significa a aplicação de capital com a expectativa de um benefício futuro. O investimento produtivo se realiza quando a taxa de lucro sobre o capital supera ou é pelo menos igual à taxa de juros ou quando os lucros sejam maiores ou iguais ao capital investido.</p>
+      <a href="https://riconnect.rico.com.vc/blog/investimentos" target="blank"/> LINK SOBRE INVESTIMENTOS </a>
+      <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+    </div>
+  </div>
+
+<!-- #card2  -->
+
+  <div class="card">
+    <img class="card-img-top" src="https://www.previbayer.com.br/wp-content/uploads/2020/12/previbayer-posts-03-12-bannersite-1024x600.png" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">COMO SEI QUAL É O MEU PERFIL DE INVESTIDOR?</h5>
+      <p class="card-text">Conservador = segurança em primeiro lugar
+                          Moderado = pouco risco para bons retornos.
+                          Agressivo = assume grandes riscos e faz investimentos mais arriscados visando maior lucratividade.
+      </p>
+      <a href="  https://riconnect.rico.com.vc/blog/perfil-de-investidor#:~:text=O%20perfil%20de%20investidor%20%C3%A9,investimentos%20mais%20adequada%20para%20voc%C3%AA.
+      " target="blank"/> LINK SOBRE SEU PERFIL </a>
+      <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+    </div>
+  </div>
+<!-- #card3  -->
+ 
+  <div class="card">
+    <img class="card-img-top" src="https://xpinc-ecommerce.xpi.com.br/riconnect/wp-content/uploads/sites/2/2021/03/investimentos-acoes.jpg" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">QUAIS TIPOS DE INVESTIMENTOS EXISTEM?</h5>
+      <p class="card-text">RENDA FIXA, 
+         RENDA VARIÁVEL, 
+         CRIPTOATIVOS,
+         FUNDOS IMOBILIÁRIOS,
+         FUNDO DE INVESTIMENTOS,
+         ETFs,
+         BDRS,
+         OURO
+        </p>
+        <a href="https://www.rico.com.vc/investimentos/" target="blank"/>LINK SOBRE OPÇÕES DE INVESTIMENTO</a>
+      <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+    </div>
+  </div>
+</div>
+
+<!-- #card4  -->
+
+<div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="https://images.squarespace-cdn.com/content/v1/5c94eaaba9ab950b1b87a3f0/1559246515255-R9N1Z706BFT5QI8R1HJQ/ilustra%C3%A7%C3%A3o+de+gr%C3%A1fico+subindo+com+dinheiro+e+moedas" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">O QUE É RENDA FIXA?</h5>
+      <p class="card-text">Os investimentos em renda fixa são aqueles que representam um empréstimo para uma instituição financeira, para uma empresa ou para o governo. Todas as aplicações de renda fixa têm uma taxa específica de rentabilidade e um prazo de vencimento. 
+        São exemplos de Renda Fixa: Tesouro Direto, CBDs, LCI,LCA são os mais conhecidos.
+        </p>
+        <a href="https://riconnect.rico.com.vc/blog/renda-fixa" target="blank"/>LINK SOBRE RENDA FIXA</a>
+      <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+    </div>
+  </div>
+  
+<!-- #card5  -->
+
+  <div class="card">
+    <img class="card-img-top" src="https://editalconcursosbrasil.com.br/wp-content/uploads/2019/06/renda-variavel.jpg" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">O QUE É RENDA VARIÁVEL? </h5>
+      <p class="card-text">Ativos de renda variável são aqueles que o retorno do investimento não pode ser dimensionado no momento da aplicação, podendo variar positivamente ou negativamente, de acordo com as expectativas do mercado.
+        AÇÕES: você se torna sócio da empresa com um pequeno % 
+        FUNDOS DE AÇÕES: fundo onde investem em várias ações 
+        FUNDOS IMOBILIÁRIOS: fundo que investe em imóveis 
+        FUNDO MULTIMERCADOS: fundo de investimentos internacionais 
+        CÂMBIO: investir em outras moedas( Dólar, Euro, Libra e outros).
+      </p>
+      <a href=" https://www.infomoney.com.br/guias/renda-variavel/" target="blank"/>LINK SOBRE TIPOS DE RENDA VARIÁVEL</a>
+      <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+    </div>
+  </div>
+  
+<!-- #card6  -->
+
+  <div class="card">
+    <img class="card-img-top" src="https://www.criptofacil.com/wp-content/uploads/2020/08/o-que-e-criptomoeda.jpg" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">O QUE SÃO CRIPTOATIVOS E CRIPTOMOEDAS?</h5>
+      <p class="card-text">Criptoativos são uma representação digital de valores transacionados, como as criptomoedas, que ganharam reconhecimento entre jovens investidores com a valorização surpreendente do bitcoin. O bitcoin, foi a primeira moeda virtual é a mais famosa.
+        Criptomoeda ou cibermoeda é um meio de troca, podendo ser centralizado ou descentralizado que se utiliza da tecnologia de blockchain e da criptografia para assegurar a validade das transações e a criação de novas unidades da moeda.
+        </p>
+        <a href="https://storage.googleapis.com/adm-portal.appspot.com/noticias/_imgHighlight/iStock-1034363382_211005_185952.jpg?mtime=20211005155952&focal=none" target="blank"/>LINK SOBRE CRIPTOATIVOS</a>
+      <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+    </div>
+  </div>
+</div>
